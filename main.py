@@ -1,3 +1,5 @@
+from sq_root import * #importing sq_root function from sq_root.py file
+
 n1 = input("Enter first number: ")
 n2 = input("\nEnter second number: ")
 
@@ -21,4 +23,4 @@ elif fun == 5:
     
 
 elif fun == 6:
-    
+    sq_root(n1, n2)
