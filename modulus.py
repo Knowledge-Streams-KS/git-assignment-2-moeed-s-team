@@ -1,3 +1,3 @@
 def modulus(num1, num2):
-    ans = num1 % num2
-    print("The sum is: ", ans)
+    mod = (num1) % (num2)
+    pprint('{0} modulo {1} = {2}' .format (num1, num2, mod))
