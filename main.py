@@ -1,5 +1,8 @@
+From multiply import *       #importing multiply function
+From division import *            #importing divide function
 from modulus import * #importing the modulus function defined in modulus.py
 from sq_root import * #importing the sq_root function from sq_root.py file
+
 
 n1 = int(input("Enter first number: ")) #get the first number from user and store it in n1 variable
 n2 = int(input("\nEnter second number: ")) #get the second number from user and store it in n2 variable
@@ -18,7 +21,7 @@ elif fun == 3:
     multiply(n1, n2)
 
 elif fun == 4:
-    divide(n1, n2)
+    division(n1, n2)
 
 elif fun == 5:
     modulus(n1, n2) #calling the modulus function
