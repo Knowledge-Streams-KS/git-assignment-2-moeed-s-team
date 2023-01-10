@@ -1,3 +1,6 @@
+From division import *            #importing divide function
+
+
 n1 = input("Enter first number: ")
 n2 = input("\nEnter second number: ")
 
@@ -15,7 +18,7 @@ elif fun == 3:
     
 
 elif fun == 4:
-    
+    division(n1, n2)
 
 elif fun == 5:
     
