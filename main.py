@@ -1,3 +1,5 @@
+From multiply import *       #importing multiply function
+
 n1 = input("Enter first number: ")
 n2 = input("\nEnter second number: ")
 
@@ -12,7 +14,7 @@ elif fun == 2:
     
 
 elif fun == 3:
-    
+    multiply(n1, n2)
 
 elif fun == 4:
     
