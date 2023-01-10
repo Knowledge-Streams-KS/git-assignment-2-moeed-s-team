@@ -1,7 +1,9 @@
-From multiply import *       #importing multiply function
-From division import *            #importing divide function
+from multiply import *       #importing multiply function
+from division import *            #importing divide function
 from modulus import * #importing the modulus function defined in modulus.py
 from sq_root import * #importing the sq_root function from sq_root.py file
+from add import *
+from subtract import *
 
 
 n1 = int(input("Enter first number: ")) #get the first number from user and store it in n1 variable
