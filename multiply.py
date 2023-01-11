@@ -1,3 +1,3 @@
 def division(num1, num2):
     answer = num1 * num2
-    return answer
+    print('Multiplication of these numbers is ' + answer) 
